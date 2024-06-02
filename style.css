@@ -1,0 +1,187 @@
+ *
+ {
+    font-family: 'Poppins',sans-serif;
+ }
+ .navbar
+ {
+    height: 67px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 10vh;
+    
+    /* background-color: black; */
+   
+ }   
+ .logo-container
+ {
+    margin-top: 2vh;
+    width: 10%;
+ }
+ .nav-inputform 
+ {
+    
+    width:40% ;
+    display: flex;
+    align-items: center;
+    outline: 0;
+    background-color: transparent;
+    border: 1px solid transparent;
+    
+    
+ }
+ .nav-inputform >.htg
+ {
+   width: 4%;
+   
+   
+ }
+ .nav-inputform input
+ {
+   width: 80%;
+   outline: 0;
+   border: 1px solid transparent;
+
+
+   
+
+ }
+ .nav-contacticon
+ {
+    width:8%;
+    display: flex;
+    align-items: center;
+     gap:1vh;
+   
+ 
+ }
+ 
+
+ .nav-contacticon1
+ {
+    width: 9%;
+ }
+.imgs-slider
+{
+    width: 80%;
+    height: 30vh;
+    margin: auto;
+   
+
+}
+ .slider1
+ {  height: 300px;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+ }
+ .slider1 .bit-sliders
+ {  height: 80%; 
+    width: 100%;
+    overflow-x: scroll;
+    display: flex;
+    gap:90px;
+    
+ }
+ .bit-sliders img{
+    height: 100%;  
+    
+ }
+.footer 
+{
+   background-color: rgba(0, 0, 0, 0.46);
+   color:black;
+}
+@media only screen and (max-width: 1200px) {
+  .navbar .nav-inputform
+  {
+   width: 70%;
+   margin-left: 70px;
+
+
+  }
+  .navbar{
+   overflow: hidden;
+  }
+ }
+ @media only screen and (max-width: 900px) {
+   .navbar .nav-inputform
+   {
+    width: 50%;
+    margin: auto;
+    
+ 
+ 
+   }
+   .navbar{
+    overflow: hidden;
+   }
+   .nav-contacticon{
+      display: none;
+   } 
+   .logo-container{
+  
+   margin-right: 90px;
+   width: 20%;
+   
+  }
+  .icon1{
+   display: none;
+  }
+  .nav-inputform
+  {
+   display: none;
+  }
+  }
+  @media only screen and (max-width: 500px) {
+   .navbar .nav-inputform
+   {
+    width: 50%;
+    margin: auto;
+    
+ 
+ 
+   }
+   .navbar{
+    overflow: hidden;
+   }
+   .nav-contacticon{
+      display: none;
+   } 
+   .logo-container{
+  
+   margin-right: 90px;
+   width: 20%;
+   
+  }
+  .icon1{
+   display: none;
+  }
+  .nav-inputform
+  {
+   display: none;
+  }
+  }
+
+  @media only screen and (max-width: 500px) {
+
+   .logo-container{
+  
+       margin-right: 20vh;
+      width: 20%;
+      
+     }
+     .nav-inputform
+     {
+      display: none;
+     }
+   }
+
+     
+
+
+
+   
+
+  
